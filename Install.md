@@ -63,10 +63,8 @@ Now clone the bootcamp repo and install the customization script.
 If you already have one, append this script to it.
 
 ```
-git clone https://github.com/freechipsproject/chisel-bootcamp.git
-cd chisel-bootcamp
-mkdir -p ~/.jupyter/custom
-cp source/custom.js ~/.jupyter/custom/custom.js
+git clone https://github.com/navaneeth93/chisel-rebootcamp.git
+cd chisel-rebootcamp
 ```
 
 And to start the bootcamp on your local machine:
@@ -117,13 +115,9 @@ java -noverify -jar coursier launch --fork almond:0.10.6 --scala 2.12.8 -- --ins
 ```
 
 #### Install the chisel-bootcamp repo.
-Download the [chisel-bootcamp](https://github.com/freechipsproject/chisel-bootcamp) as a zip file (or use a Windows git client)
+Download the [chisel-bootcamp](https://github.com/navaneeth93/chisel-rebootcamp) as a zip file (or use a Windows git client)
 and unpack it in a directory you have access to.
 Ideally, you should put it in a path that has no spaces.
-
-Install the customization script by moving `chisel-bootcamp/source/custom.js` to 
-`%HOMEDRIVE%%HOMEPATH%\.jupyter\custom\custom.js`.
-If you already have a custom.js file, append this script to it.
 
 #### Launch the Jupyter and the bootcamp
 In the directory containing the unpacked chisel-bootcamp repo, from a new command window type:
