@@ -63,7 +63,7 @@ Now clone the bootcamp repo and install the customization script.
 If you already have one, append this script to it.
 
 ```
-git clone https://github.com/navaneeth93/chisel-rebootcamp.git
+git clone https://github.com/navaneeth93/chisel-miniproject.git
 cd chisel-rebootcamp
 ```
 
@@ -115,16 +115,16 @@ java -noverify -jar coursier launch --fork almond:0.10.6 --scala 2.12.8 -- --ins
 ```
 
 #### Install the chisel-bootcamp repo.
-Download the [chisel-bootcamp](https://github.com/navaneeth93/chisel-rebootcamp) as a zip file (or use a Windows git client)
+Download the [chisel-miniproject](https://github.com/navaneeth93/chisel-miniproject) as a zip file (or use a Windows git client)
 and unpack it in a directory you have access to.
 Ideally, you should put it in a path that has no spaces.
 
 #### Launch the Jupyter and the bootcamp
-In the directory containing the unpacked chisel-bootcamp repo, from a new command window type:
+In the directory containing the unpacked chisel-miniproject repo, from a new command window type:
 ```bash
 jupyter notebook
 ```
-This should start the bootcamp server and open a top page bootcamp menu in your default browser.  If it does not
+This should start the miniproject server and open a top page miniproject menu in your default browser.  If it does not
 look for the something like the following in the command window and copy and paste the link you see into
 a browser window.
 ```bash
